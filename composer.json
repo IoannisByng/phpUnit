@@ -1,0 +1,15 @@
+{
+    "name": "ioannis/strings",
+    "require": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "Ioannis Giakoumidis",
+            "email": "ioannis@byng.co"
+        }
+    ],
+    "autoload": {
+      "psr-4": {"StringFunctions\\": "src/StringFunctions"}
+    }
+}
