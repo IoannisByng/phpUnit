@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  php:
+    image: seeruk/docker-php-fpm:7.0-dev
+    volumes:
+    - .:/opt/www
